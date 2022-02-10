@@ -55,28 +55,22 @@ html, body {
     color: #f1f5f5;
 }
 
-#banner {
-    width: auto;
-    height: 200px;
-    position: relative;
-}
-
 div {
     display: block;
 }
 
-.container {
+.banner {
     position: relative;
     width: 100%;
 }
 
-.container img {
+.banner img {
     width: 100%;
     height: auto;
     opacity: 50%;
 }
 
-.container .btn {
+.banner .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -89,11 +83,11 @@ div {
     font-size: 30px;
 }
 
-.container .btn:hover {
+.banner .btn:hover {
     background-color: #A1BEB9;
 }
 
-.container p {
+.banner p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -113,4 +107,48 @@ div {
 
 .about h1 {
     text-align: center;
+}
+
+.services {
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 70px;
+    width: 75%;
+}
+
+.services td {
+    background-color: #DA735B;
+    padding: 90px;
+    border-radius: 20px;
+    width: 33%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #f1f5f5;
+}
+
+.services td:hover {
+    color: #f7ba62;
+}
+
+#footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: sans-serif;
+    background-color: #3B5452;
+    padding: 8px;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer li a {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: #A1BEB9;
+    font-size: 16px;
 }
