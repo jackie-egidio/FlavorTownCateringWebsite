@@ -1,34 +1,49 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding-top: 60px;
 }
 
-#header {
+.header {
     background-color: #f7ba62;
-    height: 140px;
-    font-family: 'Gill Sans';
+    height: 110px;
+    font-family: serif;
+    color: #3B5452;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 15px;
 }
 
 #logo {
     height: 110px;
     align-self: left;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
 #nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    top: 0;
     text-align: center;
     font-family: sans-serif;
     background-color: #A1BEB9;
     padding: 8px;
 }
 
-li {
+#nav li {
     display: inline;
 }
 
-li a {
+#nav li a {
     display: inline;
     padding: 20px;
     text-decoration: none;
@@ -36,13 +51,14 @@ li a {
     font-size: 20px;
 }
 
-li a:hover {
+#nav li a:hover {
     color: #f1f5f5;
 }
 
 #banner {
     width: auto;
     height: 200px;
+    position: relative;
 }
 
 div {
@@ -82,4 +98,19 @@ div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.about {
+    position: relative;
+    padding: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+.about p {
+    display: inline;
+}
+
+.about h1 {
+    text-align: center;
 }
