@@ -175,12 +175,6 @@ div {
     color: #f1f5f5;
 }
 
-@media only screen and (max-width:600px) {
-    #logo {
-        display: none;
-    }
-}
-
 .contact {
     position: relative;
     margin: auto;
@@ -220,4 +214,10 @@ div {
 
 .grid-item:hover {
     color: #f7ba62;
+}
+
+@media only screen and (max-width:600px) {
+    #logo {
+        display: none;
+    }
 }
