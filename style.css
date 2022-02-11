@@ -123,16 +123,15 @@ div {
     width: 70%;
 }
 
- .services {
+.services {
     margin-right: auto;
     margin-left: auto;
     border-spacing: 70px;
     width: 75%;
     height: 25%;
-    
 }
 
-.services td{
+.services td {
     background-color: #DA735B;
     padding: 90px;
     border-radius: 20px;
