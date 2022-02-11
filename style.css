@@ -123,13 +123,12 @@ div {
     width: 70%;
 }
 
- .services {
+.services {
     margin-right: auto;
     margin-left: auto;
     border-spacing: 70px;
     width: 75%;
     height: 25%;
-    
 }
 
 .services td{
