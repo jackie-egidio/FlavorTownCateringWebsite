@@ -181,3 +181,44 @@ div {
         display: none;
     }
 }
+
+.contact {
+    position: relative;
+    margin: auto;
+    padding: 50px;
+    display: block;
+}
+
+.contact img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.services-grid {
+    display: grid;
+    grid-column-gap: 70px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: #f1f5f5;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-top: 50px;
+  }
+  
+.grid-item {
+    background-color: #DA735B;
+    border: 2px solid #A1BEB9;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #f1f5f5;
+}
+
+.grid-item:hover {
+    color: #f7ba62;
+}
